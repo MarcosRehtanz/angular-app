@@ -13,7 +13,7 @@ import { map, Observable } from 'rxjs';
     <h1>Welcome to Angular!</h1>
     <p>Hello {{ city }}, {{ 1 + 1 }}</p>
     @for (item of pokemons$ | async; track item.name) {
-      <card-pokemon [name]="item.name" >{{item.url}}</card-pokemon>
+      <card-pokemon [url]="item.url" />
     }
   `,
   // templateUrl: './app.component.html',

@@ -1,0 +1,25 @@
+.pokemon-card {
+  width: min-content;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: #000426;
+  color: white;
+
+  h1 {
+    text-transform: capitalize;
+  }
+
+}
+
+.container-stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-stat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
